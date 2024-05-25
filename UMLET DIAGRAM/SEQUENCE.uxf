@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>912</w>
+      <h>888</h>
+    </coordinates>
+    <panel_attributes>interaction frame</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>624</x>
+      <y>114</y>
+      <w>84</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_:LENDER
+bg=orange
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>126</x>
+      <y>114</y>
+      <w>84</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_:BOROWER
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>138</y>
+      <w>24</w>
+      <h>738</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;1210.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>114</y>
+      <w>96</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_LENDING 
+MAKETEPLACE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>138</y>
+      <w>24</w>
+      <h>750</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;1230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>654</x>
+      <y>138</y>
+      <w>24</w>
+      <h>750</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;1230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>180</y>
+      <w>258</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>PLACING LOAN REQUEST
+
+(SELECTING LENDER AND PRODUCT)</panel_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>210</y>
+      <w>114</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+VERYFYING 
+INFORMATION</panel_attributes>
+    <additional_attributes>10.0;70.0;70.0;70.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>276</y>
+      <w>108</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.
+CONFIRMING
+INFORMATION</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>330</y>
+      <w>282</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+IF CAPABLE=YES
+
+SEND LENDING REQUEST</panel_attributes>
+    <additional_attributes>448.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>366</y>
+      <w>276</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+ACCEPT AND GENEREATE LOAN OFFER
+</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>366</y>
+      <w>276</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+CONFIRM LOAN OFFER
+</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>384</y>
+      <w>126</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+REVIEWING TERN
+AND CONDITION</panel_attributes>
+    <additional_attributes>10.0;70.0;70.0;70.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>438</y>
+      <w>126</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+CONFIRM REVIEW</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>492</y>
+      <w>258</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ACCEPT LOAN OFFER</panel_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>516</y>
+      <w>270</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+BORROWER ACCCEPTANCE NOTIFICATION</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>534</y>
+      <w>132</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+GENERATES LAON
+AGREEMENT</panel_attributes>
+    <additional_attributes>10.0;70.0;70.0;70.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>582</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+CONFIRM GENERATING
+LOAN AGREEMENT</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>816</y>
+      <w>270</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+SUCCESSFULL PAYMENT AND
+
+SEND MONEY</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>648</y>
+      <w>258</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+LOAN AGREEMENT REVIEW AND SIGNATURE</panel_attributes>
+    <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>684</y>
+      <w>258</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+CONFIRM PAYMENT THROUGH BANK</panel_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>702</y>
+      <w>144</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+VERIFYING PAYMENT</panel_attributes>
+    <additional_attributes>10.0;70.0;70.0;70.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>750</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+CONFIRMING PAYMENT</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>804</y>
+      <w>264</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+PAYMENT SUCCESSFULL
+</panel_attributes>
+    <additional_attributes>420.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
